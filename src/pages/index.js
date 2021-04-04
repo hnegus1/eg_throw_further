@@ -44,7 +44,9 @@ const IndexPage = () => {
             }
         </section>
         <footer>
-          <p className="text-xs absolute bottom-1 left-1">Did I miss a game? <a className="text-blue-500" href="https://twitter.com/harrynegus" target="_blank" referrer="noref">Let me know!</a></p>
+          <span className="text-xs absolute bottom-1 left-1">Did I miss a game? <a className="text-blue-500" href="https://twitter.com/harrynegus" target="_blank" referrer="noref">Let me know!</a></span>
+          <span className="text-xs absolute bottom-1 right-2">{ThrowInfo.Meme}</span>
+          
         </footer>
       </div>
     </main>
