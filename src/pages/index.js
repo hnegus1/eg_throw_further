@@ -1,6 +1,7 @@
 import * as React from "react"
 import { DateTime } from 'luxon';
 import ThrowInfo from '../throwinfo.json';
+import { Link } from 'gatsby';
 
 // markup
 const IndexPage = () => {
@@ -44,7 +45,7 @@ const IndexPage = () => {
             }
         </section>
         <footer>
-          <span className="text-xs absolute bottom-1 left-1">Did I miss a game? <a className="text-blue-500" href="https://twitter.com/harrynegus" target="_blank" referrer="noref">Let me know!</a></span>
+          <span className="text-xs absolute bottom-1 left-1">Did I miss a game? <Link to="/letmeknow">Let me know!</Link></span>
           <span className="text-xs absolute bottom-1 right-2">{ThrowInfo.Meme}</span>
           
         </footer>
