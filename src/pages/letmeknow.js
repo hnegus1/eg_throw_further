@@ -14,7 +14,7 @@ const LetMeKnowPage = () => {
                 <p>With that in mind, it'd be much appreciated if you could give me a win probability graph or a Twitch clip when you let me know. Thanks!</p>
                 <br/>
 
-                <a className="text-blue-500" href="https://twitter.com/harrynegus" target="_blank" referrer="noref">@harrynegus</a>
+                <p>Update: Ooops, Twitter is kind of dying and I don't go on it that much anymore... erm, if you're on <a className="underline" href="https://bsky.app/profile/videogamesarebad.co.uk">Bluesky</a> you can reach out I guess? Or... <a className="underline" href="https://github.com/hnegus1/eg_throw_further/issues">make a GitHub issue maybe?</a></p>
             </div>
         </main>
     )
