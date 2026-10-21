@@ -45,7 +45,6 @@ const IndexPage = () => {
             }
         </section>
         <footer>
-          <span className="text-xs absolute bottom-1 left-1">Did I miss a game? <Link to="/letmeknow">Let me know!</Link></span>
           <span className="text-xs absolute bottom-1 right-2">{ThrowInfo.Meme}</span>
           
         </footer>
